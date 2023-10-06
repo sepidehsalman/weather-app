@@ -31,7 +31,17 @@ function App() {
       });
   }
   return (
-    <div className="App">
+    <div className="App bg-gray-200">
+      <div className="bg-gray-800 h-96 grid place-items-center">
+        <div className="bg-white w-96 rounded-md">
+          <input
+            type="text"
+            placeholder="Enter Your Location"
+            className="text-xl border-b p-1 border-gray-200"
+          />
+        </div>
+      </div>
+      ;
       <input
         type="text"
         placeholder="enter city name"
